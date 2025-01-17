@@ -1,0 +1,104 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Container to center content */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff6347; /* Change color on hover */
+}
+
+/* Main content sections */
+main {
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* YouTube Link (commented out) */
+/*
+.youtube-link {
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ff6347;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.youtube-link:hover {
+    color: #ff4500;
+    text-decoration: underline;
+}
+*/
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1em;
+}
