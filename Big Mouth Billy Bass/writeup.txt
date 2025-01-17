@@ -1,5 +1,0 @@
-1. Go to the website
-2. Look at the html
-3. Find the YouTube link
-4. Look at the person who uploaded the video
-5. Flag: lbctf{Antti_Ryynänen}
